@@ -115,7 +115,7 @@ header.primary h2 {
   }
   
   #intro h2 {
-    color: #3b638b;
+    color: darkred;
     border-bottom: 1px dotted grey;
   }
   
@@ -148,7 +148,7 @@ header.primary h2 {
   }
   
   #content a {
-    color: #3b638b;
+    color:darkred;
   }
   
   #content article.post figure {
@@ -156,12 +156,12 @@ header.primary h2 {
   }
   
   #practice h2 {
-    color: #3b638b;
+    color: darkred;
     border-bottom: 1px dotted #c0c0c0;
   }
   
   #practice a {
-    color: #3b638b;
+    color: darkred;
     transition: 0.4s;
   }
   
@@ -171,7 +171,7 @@ header.primary h2 {
   }
   
   #practice h3 {
-    border-left: 7.5px solid #3b638b;
+    border-left: 7.5px solid darkred;
     padding: 3.5px 10px;
   }
   
@@ -212,7 +212,7 @@ header.primary h2 {
   }
   
   #practice ol{
-    list-style-type:lower-alpha;
+    list-style-type:lower-greek;
   }
   
   #practice ul{
