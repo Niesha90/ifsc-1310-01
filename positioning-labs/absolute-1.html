@@ -16,7 +16,7 @@
     *:after {
       box-sizing:content-box;
       position:absolute;
-      top:30px;
+      
 
 
     }
@@ -30,48 +30,102 @@
     }
     #wrapper {
       background-color: #FFF;
-      border: 1px solid #c0c0c0;
       width: 800px;
+      height:500px;
       margin-right: auto;
       margin-left: auto;
       text-shadow: 2px 2px #000;
+      position:relative;
+      padding-top:175px;
+      
     }
     #navy {
       background-color: #001f3f;
-      position:top;
-      top:50px;
-      left:20px;
+      position:absolute;
+      width:175px;
+      height:175px;
+      top:0px;
+      left:0px;
+      clear:both;
+      padding:0px;
 
 
       
     }
     #teal {
       background-color: #39CCCC;
+      position:absolute;
+      width:175px;
+      height:175px;
+      top:0px;
+      right:0px;
+      clear:both;
+      padding:0px;
+      
     }
     #blue {
       background-color: #0074D9;
+      position:absolute;
+      width:175px;
+      height:175px;
+      bottom:0px;
+      left:0px;
+      clear:both;
+      
     }
     #aqua {
       background-color: #7FDBFF;
+      position:absolute;
+      width:175px;
+      height:175px;
+      bottom:0px;
+      right:0px;
+      clear:both;
+  
+    }
+    .footerparent{
+      width:500px;
+      height:250px;
+      position:static;
+      margin:0px auto;
+      background-color:#0
+
+
     }
     #footer {
       background-color: #666;
+      position:static;
+      width:175px;
+      height:175px;
+      clear:both;
+      margin:auto;
+      
+      
+
+
+
     }
     h1 {
       color: #000;
       font-weight: normal;
       padding: 50px;
+      text-align:center;
+      display:block;
+      position:static;
     }
   </style>
 </head>
 <body>
-  <h1>Exercise</h1>
-  <section id="wrapper">
+   <section id="wrapper">
     <div id="navy">Navy</div>
     <div id="teal">Teal</div>
     <div id="blue">Blue</div>
     <div id="aqua">Aqua</div>
-    <div id="footer">Footer</div>
+    <h1>Exercise</h1>
+        <div class="footerparent">
+      <div id="footer">Footer</div>
+    </div>
+    
   </section>
 </body>
 
